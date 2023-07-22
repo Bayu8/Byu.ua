@@ -1,0 +1,291 @@
+html , body{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+@font-face{
+  font-family:"audiowide";
+  src:url('font/audiowide.ttf');
+}
+.container1{
+  height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background-color: #cfb4b4f5;
+  display: flex;
+  flex-direction: column;
+}
+.wrap{
+  display: flex;
+  height: 50px;
+  position: relative;
+  align-items: center;
+  padding: 5px;
+  justify-content: flex-end;
+}
+#btn{
+  display: inline-flex;
+  padding: 1.5px;
+  height: 37px;
+  background-color: #cfb4b4f5;
+  justify-content: space-between;
+  border: 2px solid black;
+  width: 80px;
+  border-radius: 16px;
+  transition: .9s;
+  position: relative;
+}
+#dark{
+  height: 30px;
+  width: 30px;
+}
+#light{
+  height: 30px;
+  width: 30px;
+}
+#leb{
+  position: absolute;
+  top: 0;
+  height: 33px;
+  width: 40px;
+  left: 0;
+  border-radius: 14px;
+  background-color: #111111;
+  transition: .9s;
+}
+#jamdig{
+  width: 150px;
+  height: 50px;
+  display: flex;
+  padding: 0;
+  align-items: center;
+  flex-direction: column;
+}
+.k{
+  display: flex;
+  margin-top: 90px;
+  justify-content: center;
+}
+.hari{
+  height: 25px;
+  width: 155px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0;
+}
+.time{
+  display: flex;
+  padding: 0;
+  width: 140px;
+  height: 25px;
+  margin-top: 0;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.kata1{
+  margin-top: 100px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+}
+.kata2{
+  margin-top: 7px;
+  margin-bottom: 7px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+.kata3{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 70px;
+}
+h5{
+  margin: 5px;
+}
+h6{
+  margin: 1px;
+}
+h3{
+  margin: 3px;
+}
+.pembuka{
+  display: flex;
+  font-family: audiowide;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@keyframes left{
+  0%{
+    left: -999px;
+  }
+  50%{
+    left: 15px;
+  }
+  100%{
+    left: 0;
+  }
+}
+@keyframes right{
+  0%{
+    right: -999px;
+  }
+  50%{
+    right: 15px;
+  }
+  100%{
+    right: 0;
+  }
+}
+@keyframes top{
+  0%{
+    top: -999px;
+  }
+  50%{
+    top: 15px;
+  }
+  100%{
+    top: 0;
+  }
+}
+.abjad1{
+  position: relative;
+  animation: left;
+  left: -999px;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+.abjad2{
+  position: relative;
+  animation: top;
+  top: -999px;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+}
+.abjad3{
+  position: relative;
+  animation: top;
+  top: -999px;
+  animation-duration: 1s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+}
+.abjad4{
+  position: relative;
+  animation: top;
+  top: -999px;
+  animation-duration: 1s;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+}
+.abjad5{
+  position: relative;
+  animation: top;
+  top: -999px;
+  animation-duration: 1s;
+  animation-delay: 4s;
+  animation-fill-mode: forwards;
+}
+.abjad6{
+  position: relative;
+  animation: top;
+  top: -999px;
+  animation-duration: 1s;
+  animation-delay: 5s;
+  animation-fill-mode: forwards;
+}
+.abjad7{
+  position: relative;
+  animation: right;
+  right: -999px;
+  animation-duration: 1s;
+  animation-delay: 6s;
+  animation-fill-mode: forwards;
+}
+.abjad8{
+  position: relative;
+  animation: left;
+  left: -999px;
+  animation-duration: 1s;
+  animation-delay: 7s;
+  animation-fill-mode: forwards;
+}
+.abjad9{
+  position: relative;
+  animation: right;
+  right: -999px;
+  animation-duration: 1s;
+  animation-delay: 8s;
+  animation-fill-mode: forwards;
+}
+.abjad10{
+  position: relative;
+  animation: left;
+  left: -999px;
+  animation-duration: 1s;
+  animation-delay: 11s;
+  animation-fill-mode: forwards;
+}
+.abjad11{
+  position: relative;
+  animation: left;
+  left: -999px;
+  animation-duration: 1s;
+  animation-delay: 10s;
+  animation-fill-mode: forwards;
+}
+.abjad12{
+  position: relative;
+  animation: left;
+  animation-duration: 1s;
+  left: -999px;
+  animation-delay: 9s;
+  animation-fill-mode: forwards;
+}
+.abjad13{
+  position: relative;
+  animation: top;
+  animation-duration: 1s;
+  top: -999px;
+  animation-delay: 12s;
+  animation-fill-mode: forwards;
+}
+.abjad14{
+  position: relative;
+  animation: right;
+  animation-duration: 1s;
+  animation-delay: 13s;
+  right: -999px;
+  animation-fill-mode: forwards;
+}
+.abjad15{
+  position: relative;
+  animation: right;
+  animation-duration: 1s;
+  right: -999px;
+  animation-delay: 14s;
+  animation-fill-mode: forwards;
+}
+.pindah{
+  height: 30px;
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.a{
+  text-decoration: none;
+  color: black;
+}
+
+
+
+
